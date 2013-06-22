@@ -1,0 +1,49 @@
+==3335== Memcheck, a memory error detector
+==3335== Copyright (C) 2002-2010, and GNU GPL'd, by Julian Seward et al.
+==3335== Using Valgrind-3.6.0 and LibVEX; rerun with -h for copyright info
+==3335== Command: ./pa02 input4
+==3335== Parent PID: 3334
+==3335== 
+--3335-- 
+--3335-- Valgrind options:
+--3335--    --tool=memcheck
+--3335--    --leak-check=full
+--3335--    --verbose
+--3335--    --log-file=memoutput4
+--3335-- Contents of /proc/version:
+--3335--   Linux version 2.6.32-279.14.1.el6.x86_64 (mockbuild@x86-002.build.bos.redhat.com) (gcc version 4.4.6 20120305 (Red Hat 4.4.6-4) (GCC) ) #1 SMP Mon Oct 15 13:44:51 EDT 2012
+--3335-- Arch and hwcaps: AMD64, amd64-sse3-cx16
+--3335-- Page sizes: currently 4096, max supported 4096
+--3335-- Valgrind library directory: /usr/lib64/valgrind
+--3335-- Reading syms from /home/shay/a/mpundman/S2013/PA/PA02/pa02 (0x400000)
+--3335-- Reading syms from /usr/lib64/valgrind/memcheck-amd64-linux (0x38000000)
+--3335--    object doesn't have a dynamic symbol table
+--3335-- Reading syms from /lib64/ld-2.12.so (0x39e3600000)
+--3335-- Reading suppressions file: /usr/lib64/valgrind/default.supp
+--3335-- REDIR: 0x39e36174a0 (strlen) redirected to 0x38042ae7 (vgPlain_amd64_linux_REDIR_FOR_strlen)
+--3335-- Reading syms from /usr/lib64/valgrind/vgpreload_core-amd64-linux.so (0x4801000)
+--3335-- Reading syms from /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so (0x4a02000)
+==3335== WARNING: new redirection conflicts with existing -- ignoring it
+--3335--     new: 0x39e36174a0 (strlen              ) R-> 0x04a07830 strlen
+--3335-- REDIR: 0x39e3617310 (index) redirected to 0x4a07470 (index)
+--3335-- REDIR: 0x39e3617390 (strcmp) redirected to 0x4a07df0 (strcmp)
+--3335-- Reading syms from /lib64/libc-2.12.so (0x39e3a00000)
+--3335-- REDIR: 0x39e3a846b0 (strcasecmp) redirected to 0x4801560 (_vgnU_ifunc_wrapper)
+--3335-- REDIR: 0x39e3a86970 (strncasecmp) redirected to 0x4801560 (_vgnU_ifunc_wrapper)
+--3335-- REDIR: 0x39e3a82620 (__GI_strrchr) redirected to 0x4a072f0 (__GI_strrchr)
+--3335-- REDIR: 0x39e3a7a0d0 (malloc) redirected to 0x4a05f10 (malloc)
+--3335-- REDIR: 0x39e3a8a4d0 (strchrnul) redirected to 0x4a08f40 (strchrnul)
+--3335-- REDIR: 0x39e3a7af00 (free) redirected to 0x4a05890 (free)
+--3335-- REDIR: 0x39e3a80b40 (__GI_strlen) redirected to 0x4a077f0 (__GI_strlen)
+==3335== 
+==3335== HEAP SUMMARY:
+==3335==     in use at exit: 0 bytes in 0 blocks
+==3335==   total heap usage: 2 allocs, 2 frees, 752 bytes allocated
+==3335== 
+==3335== All heap blocks were freed -- no leaks are possible
+==3335== 
+==3335== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
+--3335-- 
+--3335-- used_suppression:      6 dl-hack3-cond-1
+==3335== 
+==3335== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)

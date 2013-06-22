@@ -1,0 +1,133 @@
+
+typedef struct StackNode
+{
+  //Create a structure Stack
+} 
+
+Stack *Stack_push(Stack *stack, HuffNode *node)
+{
+  //Creates a new item and pushes on top of the stack
+  //also allocates memory for node
+}
+
+Stack *Stack_pop(Stack *stack)
+{
+  //Check to see if the stack is empty
+  
+  //move the current top of the stack to the next element
+  //then, free the current top element
+  //finally return the current top element
+}
+
+HuffNode *Stack_peek(Stack *stack)
+{
+  //check to see if the stack is empty
+  
+  //else return the top stack element
+}
+
+int Stack_getCount(Stack *stack)
+{
+  //check to see if the stack is empty
+  
+  //else recursively call this method with the next stack element + 1
+  //thereby iterating through the stack and totalling the elements
+}
+
+
+HuffNode *Huff_create(int value)
+{
+  //create a huffmans node with the inputs value and initialize the branches to null
+  //return the node
+}
+
+HuffNode *Huff_createNode(HuffNode *left, HuffNode *right)
+{
+  //creates a huffmans node based on the left and right branches and set the value to 0
+}
+  
+
+void HuffNode_destroy(HuffNode *node)
+{
+  //free the memory for the node
+}
+
+void HuffNode_destroyTree(HuffNode *node)
+{
+  //check to see if the input node is empty
+  
+  //else recursively call this method down each branch
+  //then free free the current node
+}
+
+HuffNode *Huff_loadHeader(FILE *f)
+{
+  //initialize a stack and int variable
+
+  //use a loop to iterate through the input file
+    //if value is 1, get the next character
+      //push a node containing the character onto the stack
+    
+      //if the stack contains only one element, the huffman tree is complete and we are done (break)
+      
+      //the first element of the stack is the right element
+      //store that as a variable and pop it off
+      //then, get the left element of the stack         
+      //finally, push the two branches onto the stack
+  
+  //create a tree variable from the top of the stack
+  //then, erase the stack
+  //and print the tree
+  //and finally erase the tree
+
+  //return the tree;
+}
+
+int getBit(int ch, int bit)
+{
+  //leftshift the bits by 1
+  return ch & (1 << bit);
+}
+
+int Huff_lookup(HuffNode *tree, FILE *fin, int *data, int *bitpos)
+{
+  //base case, return -1 to signal end
+  
+  //is this a leaf
+  //if so return node value
+
+  //do we need more data
+  //check to see the position of the bits, and if it is less than 0
+  //get the next bit, and reduce the CHAR_BITS counter by 1
+
+  //read the bit and subtract by one
+  //where to go next with the bit
+  //if there is a left node, move recursively lookup the left node tree
+  //else go to the right node
+}
+
+
+int Huff_decode(HuffNode *tree, int numchar, FILE *fin, FILE *fout)
+{
+  //initialize a counter, the data as 0, and the bitpos as -1 to signal huff_loopup to start at the front of the data
+
+  //read characters from the input file, decode them, and write them to the output file
+}
+
+
+
+int Huff_load(char *infile, char *outfile)
+{
+  //open the file and check to see if it is an actual input
+
+  //load the header  
+
+  //read the number of chars
+
+  //open output file
+  
+  //decode the data
+  
+
+  //close the files and return exit success  
+}

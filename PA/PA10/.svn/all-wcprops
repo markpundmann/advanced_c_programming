@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/101/trunk/S2013/PA/PA10
+END
+tree.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/98/trunk/S2013/PA/PA10/tree.c
+END
+tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/95/trunk/S2013/PA/PA10/tree.h
+END
+pa10.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/95/trunk/S2013/PA/PA10/pa10.pdf
+END
+SPEC
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/95/trunk/S2013/PA/PA10/SPEC
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/101/trunk/S2013/PA/PA10/Makefile
+END
+grader.pl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/95/trunk/S2013/PA/PA10/grader.pl
+END

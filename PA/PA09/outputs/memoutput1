@@ -1,0 +1,62 @@
+==17103== Memcheck, a memory error detector
+==17103== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==17103== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==17103== Command: ./pa09 inputs/input1 outputs/output1
+==17103== Parent PID: 17102
+==17103== 
+--17103-- 
+--17103-- Valgrind options:
+--17103--    --tool=memcheck
+--17103--    --leak-check=full
+--17103--    --verbose
+--17103--    --log-file=outputs/memoutput1
+--17103-- Contents of /proc/version:
+--17103--   Linux version 2.6.32-358.2.1.el6.x86_64 (mockbuild@x86-023.build.eng.bos.redhat.com) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-3) (GCC) ) #1 SMP Wed Feb 20 12:17:37 EST 2013
+--17103-- Arch and hwcaps: AMD64, amd64-sse3-cx16
+--17103-- Page sizes: currently 4096, max supported 4096
+--17103-- Valgrind library directory: /usr/lib64/valgrind
+--17103-- Reading syms from /home/shay/a/mpundman/S2013/PA/PA09/pa09
+--17103-- Reading syms from /usr/lib64/valgrind/memcheck-amd64-linux
+--17103--    object doesn't have a dynamic symbol table
+--17103-- Reading syms from /lib64/ld-2.12.so
+--17103-- Scheduler: using generic scheduler lock implementation.
+--17103-- Reading suppressions file: /usr/lib64/valgrind/default.supp
+==17103== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-17103-by-mpundman-on-ecelinux22.ecn.purdue.edu
+==17103== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-17103-by-mpundman-on-ecelinux22.ecn.purdue.edu
+==17103== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-17103-by-mpundman-on-ecelinux22.ecn.purdue.edu
+==17103== 
+==17103== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==17103== don't want to do, unless you know exactly what you're doing,
+==17103== or are doing some strange experiment):
+==17103==   /usr/lib64/valgrind/../../bin/vgdb --pid=17103 ...command...
+==17103== 
+==17103== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==17103==   /path/to/gdb ./pa09
+==17103== and then give GDB the following command
+==17103==   target remote | /usr/lib64/valgrind/../../bin/vgdb --pid=17103
+==17103== --pid is optional if only one valgrind process is running
+==17103== 
+--17103-- REDIR: 0x303b2174a0 (strlen) redirected to 0x38049551 (vgPlain_amd64_linux_REDIR_FOR_strlen)
+--17103-- Reading syms from /usr/lib64/valgrind/vgpreload_core-amd64-linux.so
+--17103-- Reading syms from /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so
+--17103-- REDIR: 0x303b217310 (index) redirected to 0x4a07bf0 (index)
+--17103-- REDIR: 0x303b217390 (strcmp) redirected to 0x4a08530 (strcmp)
+--17103-- Reading syms from /lib64/libc-2.12.so
+--17103-- REDIR: 0x303b684e80 (strcasecmp) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--17103-- REDIR: 0x303b687140 (strncasecmp) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--17103-- REDIR: 0x303b682df0 (__GI_strrchr) redirected to 0x4a07a70 (__GI_strrchr)
+--17103-- REDIR: 0x303b67a8a0 (malloc) redirected to 0x4a0696c (malloc)
+--17103-- REDIR: 0x303b67b6d0 (free) redirected to 0x4a06369 (free)
+==17103== 
+==17103== HEAP SUMMARY:
+==17103==     in use at exit: 0 bytes in 0 blocks
+==17103==   total heap usage: 3 allocs, 3 frees, 1,160 bytes allocated
+==17103== 
+==17103== All heap blocks were freed -- no leaks are possible
+==17103== 
+==17103== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
+--17103-- 
+--17103-- used_suppression:      4 U1004-ARM-_dl_relocate_object
+--17103-- used_suppression:      2 glibc-2.5.x-on-SUSE-10.2-(PPC)-2a
+==17103== 
+==17103== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)

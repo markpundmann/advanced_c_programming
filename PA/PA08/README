@@ -1,0 +1,25 @@
+Student_create function mallocs memory for student based on student size and initializes data
+
+Student_destroy function frees the memory for the student
+
+Student_insertfront needs to take in the head of the linked list and the new student.  
+it then checks to see if the linked list is empty and sets the student accordingly.  
+
+ReadStudent will open the file, intialize variables, scan the in file and allocate the memory for each student.  
+
+
+Write student will be composed of 2 parts for recursive reasons.  
+The first will open the file and call the second recursive function.  
+the recursive function will keep printing the next student with the return value as the recursive call.  
+The base case for this function will be when the linked list head is NULL.  
+
+Use typedef to create two identifying variables for which the sort method will be decided upon.  
+The sorting function will also be recursive, use two functions, and will make use of insertion sorts ability
+to insert data correctly into a linked list as long as the list is already sorted.  
+The first function calls the recursive function to insert the elements, while using the typedef
+to decide upon which sorting method it will use based on a switch statement.  
+The recursive function will compare its current head student with next one until the head student is null (base case).  
+If not null, it will then keep moving down the linked list through recursive calls until it finds an id/student name 
+that is greater than it, and will insert it into that position.
+
+

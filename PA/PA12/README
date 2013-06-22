@@ -1,0 +1,49 @@
+
+BMP_Image *BMP_create(BMP_Header *header)
+{
+    // allocate memory for the image structure
+    // copy the header
+    // image size is file size minus the size of the header
+    // allocate memory for the data
+    // return the image structure
+
+}
+
+void BMP_destroy(BMP_Image *image)
+{    
+    // deallocate the allocated memory
+}
+
+BMP_Image *BMP_load(const char *filename)
+{
+  //open the file and check to see if it is null
+  //read the bmp header
+  //print the header and check to see if it is valid
+  //create a new image as the header
+  //destroy the image and return the image
+
+}
+
+void * invert_Region(void * reg)
+{ 
+  loop through the region from index1 to index inverting the byte value
+  return the pthread_exit variable
+  return success
+}
+
+void BMP_invert(BMP_Image *image, int numThread)
+{
+  malloc the threads, regions, and status variables
+  use 3 loops to go through the threads and seperate the data, convert it, and combine it
+  
+  Create the thread 
+  Wait for all of the threads to finish executing
+	
+  free the threads, regions, and status variables
+}
+
+int BMP_save(BMP_Image *image, const char *filename)
+{
+  save the data to filename
+}
+

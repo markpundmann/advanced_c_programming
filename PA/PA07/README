@@ -1,0 +1,30 @@
+README
+
+This program needs to take in a file, open it, invert the image pixels, and save it.  
+
+
+Reading a BMP file consists of the following steps:
+
+1. Open a binary file for reading.
+2. Read the 54-byte header into memory.
+//create an image file and assign using -> the values of the header to the image file.  
+//This data will be used for edited the file
+3. Check that the data in the header is valid (use BMP_checkValid
+   given in bmp.c).
+4. Allocate space for the image data.
+5. Read the image data (which is the file size minus the 54 bytes of
+   the header).
+6. Close the file.
+
+Editing the image pixels will consist of finding the correct binary values for the pixels and inverting them.  
+This consists of removing header and things like that, and switching the RGB values.  
+Invertion will simply be: value= absolute(value-255).  
+
+Saving a BMP file is similar:
+
+1. Open a binary file for writing
+2. Write the 54-byte header into the file
+3. Write the image data into the file (again, the file size from the
+   header minus 54 bytes)
+4. Close the file.
+

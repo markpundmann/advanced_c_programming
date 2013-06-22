@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/52/trunk/S2013/PA/PA03
+END
+answer03.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/47/trunk/S2013/PA/PA03/answer03.c
+END
+pa03.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/trunk/S2013/PA/PA03/pa03.c
+END
+pa03.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/47/trunk/S2013/PA/PA03/pa03.h
+END
+expectedsubset03
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedsubset03
+END
+expectedsubset04
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedsubset04
+END
+expectedsubset05
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedsubset05
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/30/trunk/S2013/PA/PA03/README
+END
+expectedsubset06
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedsubset06
+END
+expectedpartition03
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpartition03
+END
+expectedsubset07
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedsubset07
+END
+expectedpartition04
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpartition04
+END
+expectedsubset08
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedsubset08
+END
+expectedpartition05
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpartition05
+END
+expectedpartition06
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpartition06
+END
+expectedpartition07
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpartition07
+END
+expectedpartition08
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpartition08
+END
+expectedpermute03
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpermute03
+END
+expectedpermute04
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpermute04
+END
+expectedpermute05
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpermute05
+END
+expectedpermute06
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpermute06
+END
+expectedpermute07
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpermute07
+END
+expectedpermute08
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/49/trunk/S2013/PA/PA03/expectedpermute08
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/51/trunk/S2013/PA/PA03/Makefile
+END
+grader.pl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/52/trunk/S2013/PA/PA03/grader.pl
+END

@@ -1,0 +1,85 @@
+typedef struct StackNode
+{
+  //Create a structure Stack
+} 
+
+Stack *Stack_push(Stack *stack, HuffNode *node)
+{
+  //Creates a new item and pushes on top of the stack
+}
+
+Stack *Stack_pop(Stack *stack)
+{
+  //Check to see if the stack is empty
+  //then,
+
+  //move the current top of the stack to the next element
+  //then, free the current top element
+  //finally return the current top element
+}
+
+HuffNode *Stack_peek(Stack *stack)
+{
+  //check to see if the stack is empty
+  //else return the top stack element
+}
+
+int Stack_getCount(Stack *stack)
+{
+  //check to see if the stack is empty
+  //else recursively call this method with the next stack element + 1
+  //thereby iterating through the stack and totalling the elements
+}
+
+
+HuffNode *Huff_create(int value)
+{
+  //create a huffmans node with the inputs value and initialize the branches to null
+  //return the node
+}
+
+HuffNode *Huff_createNode(HuffNode *left, HuffNode *right)
+{
+  //creates a huffmans node based on the left and right branches and set the value to 0
+}
+  
+
+void HuffNode_destroy(HuffNode *node)
+{
+  //free the memory for the node
+}
+
+void HuffNode_destroyTree(HuffNode *node)
+{
+  //check to see if the current node is empty
+  //else recursively call this method down each branch
+  //then free free the current node
+}
+
+int Huff_load(char *filename)
+{
+  //open the file and check to see if it is an actual input
+ 
+  //initialize a stack and int variable
+  //use a loop to iterate through the input file
+
+  //if value is 1, get the next character
+
+  //push a node containing the character onto the stack
+  //if the stack contains only one element, the huffman tree is complete and we are done (break)
+  //the first element of the stack is the right element
+  //store that as a variable and pop it off
+  //then, get the left element of the stack and pop that off
+  //finally, push the two branches onto the stack
+
+  //create a tree variable from the top of the stack
+  //then, erase the stack
+  //and print the tree
+  //and finally erase the tree
+
+}
+void Huff_postOrderPrint(HuffNode *tree)
+{
+  //already done for me, (prints the tree) 
+
+}

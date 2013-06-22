@@ -1,0 +1,56 @@
+In this assignment, you need to write README and submit it with your
+program.
+
+What to put inside README?
+
+First of all, you must understand that you write README for yourself,
+not for the teaching staff.  The teaching staff already know how to
+write this program.
+
+Write README explaining how to write this program.  You should write
+README before writing your program.  Why?  You need to think carefully
+about the problem and the solution before writing code.  Explain why
+you write the program in this way.  Explain why you use one function
+vs another (for example, should you use fgetc, fscanf, fgets, or
+something else?).  How do you write the comparison function for qsort?
+
+The students that received high scores in ECE 264 would likely tell
+you that they wrote README and comments before they wrote code.  As a
+general rule, if you rush to write code, you will spend much more
+time.  The more time you spend on thinking and designing, the less
+time you spend on coding and debugging.  
+
+Treat gcc warnings seriously.  In most cases, the warnings are serious
+problems. There were many cases when students thought, "I will make my
+program work first and then I will worry about the warnings."  Their
+programs did not work because they ignored the warnings. 
+
+You can use README to document your progress.  For example, you can
+write down 
+
+I did ....  and it did not work.  Later, I found the solution should
+be ...
+
+Again, write README for youself, not for the teaching staff.  Use
+README as an opportunity for learning.
+
+Count Students:
+I opened the original file to read, and initialized the students to zero.  
+After initializing the variable id, I used a while loop to scan through the input and count the number of lines that have an ID and a name representing a student.  
+
+AllocateStudent:
+This file simply initializes the memory for the number of students multiplied by their releative size.  
+
+Read student:
+This function opens the file, and scans the input like the count stduents, and puts the data into a Students structure, containting an Integer ID, and a char Name.  
+
+Write Student:
+This function opens the output file, and fprints to it the id and student assuming they have been presorted.  
+
+Swap student:
+This function swaps the pointers of 2 students ID's and Names.  This is better than trying to copy the data because the chars could be different length and therefore not fit into each others memory allocation.  
+
+Free student:
+This funciton first frees the memory of all the student arrays, and then the array itself.  
+
+Done!

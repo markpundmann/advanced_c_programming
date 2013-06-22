@@ -1,0 +1,87 @@
+
+
+Tree *Tree_create(int value)
+{  
+  //allocate memory for new tree and set childs to NULL
+}
+
+void destroyTree(Tree * root)
+{
+  //This will first check to see if this tree is null, then
+  //This method will recursively call itself down both branches, and then free itself
+}
+
+
+Tree * Tree_insert(Tree * root, int val)
+{
+  This function has 3 possibilities, first is if the root is null, in which case just create a tree
+  The second are for when the value does not equal the root value,
+  in which case it sets the respective branch node as Tree_inserts recursive call down that branch
+}
+
+
+Tree *findSuccessor(Tree *node)
+{
+  //base case no left node
+  
+  //if havent found base successor
+  //recursive call down left branch
+}
+
+
+Tree * Tree_delete(Tree * root, int val)
+/*
+{
+  This method first finds the node to delete,
+  It does this by checking too see if the root value is null,
+  and if it is not, it then checks to see if the val is less than or greater than
+  the root value, and if it is, it recursively calls itself to delete the tree down that
+  respective branch
+
+  //at this point, we have found the deleteable node
+  //case 1
+  //nothing to left and right so delete this node
+
+  //case 2  left has a node, right is null
+  
+  //case 3, right has a node, left is null
+  
+  //case 4, both childs contain values;
+  //at this point, find the successor in the right node and replace the current node with
+  //that respective node
+
+  //delete the successor
+}
+
+
+Tree * readTree(char * infile)
+{
+  open the file and check to see if its null
+  then, initialize variables for the inputs
+  (the type of command, and its value)
+  Finally, insert it using a switch method
+  close the infile and return the root tree
+
+
+}
+
+int preOrder(FILE *f, Tree * root)
+{
+  preorder prints the current root value,
+  and then recursively calls itself down the left and finally right branches
+
+}
+
+int inOrder(FILE *f, Tree * root)
+{
+  In order calls itself down the left branch, then prints its value,
+  and finally calls itself down the right branch
+  
+}
+
+int postOrder(FILE *f, Tree * root)
+{
+  post order calls itself down the left and right branches first,
+  and then prints its own value.  
+
+}
